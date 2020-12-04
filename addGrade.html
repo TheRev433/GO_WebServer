@@ -1,0 +1,28 @@
+
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Agregar Calificacion</title>
+        </head>
+        <body>
+            <div class="topnav">
+                <a class="active" href="/">Home</a>
+                <a href="/addGrade">Agregar Calificacion</a>
+                <a href="/studentAVG">Obtener promedio de estudiante</a>
+                <a href="/subjectAVG">Obtener promedio por materia</a>
+                <a href="/generalAVG">Obtener promedio general</a>
+            </div>
+            <br>
+            <br>
+            <form action="/addGrade" method="POST" id="addGradeForm">
+                <label>Nombre del alumno:</label><br>
+                <input type="text" name="student" value=""><br>
+                <label>Nombre de la materia:</label><br>
+                <input type="text" name="subject" value=""><br>
+                <label>Calificacion:</label><br>
+                <input type="number" name="grade" value=""><br>
+                <br>
+                <input type="submit" value="Agregar">
+            </form>
+            <br>
+            <br>
